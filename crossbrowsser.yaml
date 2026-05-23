@@ -1,0 +1,16 @@
+name: Suite
+parallel: tests
+configFailurePolicy: skip
+tests:
+  - name: ChromeTestTest
+  parallel: tests
+  parameters: { os: Windows, browser: chrome }
+  classes:
+    - selenium27dec.opencartv121.testcases
+
+  - name: edgeTestTest
+  parallel: tests
+  parameters: { os: Windows, browser: edge }
+  classes:
+    - selenium27dec.opencartv121.testcases
+

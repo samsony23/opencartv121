@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [samSuite]">
+  <parameter name="os" value="Windows"/>
+  <parameter name="browser" value="chrome"/>
+  <test parallel="none" name="Test(failed)" preserve-order="true">
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="selenium27dec.opencartv121.testbase2">
+        <methods>
+          <include name="openbrowser"/>
+          <include name="closebrowser"/>
+          <include name="verifylogin"/>
+        </methods>
+      </class> <!-- selenium27dec.opencartv121.testbase2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [samSuite] -->

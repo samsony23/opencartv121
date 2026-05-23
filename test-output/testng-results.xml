@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-24T11:06:10Z" name="samSuite" finished-at="2026-04-24T11:06:22Z" duration-ms="12297">
+    <groups>
+    </groups>
+    <test started-at="2026-04-24T11:06:10Z" name="Test" finished-at="2026-04-24T11:06:22Z" duration-ms="12297">
+      <class name="selenium27dec.opencartv121.testbase2">
+        <test-method is-config="true" signature="openbrowser(java.lang.String, java.lang.String)[pri:0, instance:selenium27dec.opencartv121.testbase2@68d279ec]" started-at="2026-04-24T16:36:10Z" name="openbrowser" finished-at="2026-04-24T16:36:18Z" duration-ms="7985" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method signature="verifylogin()[pri:0, instance:selenium27dec.opencartv121.testbase2@68d279ec]" started-at="2026-04-24T16:36:18Z" name="verifylogin" finished-at="2026-04-24T16:36:22Z" duration-ms="3873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogin -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:selenium27dec.opencartv121.testbase2@68d279ec]" started-at="2026-04-24T16:36:22Z" name="closebrowser" finished-at="2026-04-24T16:36:22Z" duration-ms="418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- selenium27dec.opencartv121.testbase2 -->
+    </test> <!-- Test -->
+  </suite> <!-- samSuite -->
+</testng-results>
